@@ -1,9 +1,9 @@
 BtcCore Library
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/ows-btc-core-lib.svg?style=flat-square)](https://www.npmjs.org/package/ows-btc-core-lib)
-[![Build Status](https://img.shields.io/travis/owstack/ows-btc-core-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/ows-btc-core-lib)
-[![Coverage Status](https://img.shields.io/coveralls/owstack/ows-btc-core-lib.svg?style=flat-square)](https://coveralls.io/r/owstack/ows-btc-core-lib)
+[![NPM Package](https://img.shields.io/npm/v/ows-btccore-lib.svg?style=flat-square)](https://www.npmjs.org/package/ows-btccore-lib)
+[![Build Status](https://img.shields.io/travis/owstack/ows-btccore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/ows-btccore-lib)
+[![Coverage Status](https://img.shields.io/coveralls/owstack/ows-btccore-lib.svg?style=flat-square)](https://coveralls.io/r/owstack/ows-btccore-lib)
 
 A pure and powerful JavaScript Bitcoin library.
 
@@ -14,11 +14,11 @@ Bitcoin is a powerful new peer-to-peer platform for the next generation of finan
 ## Get Started
 
 ```
-npm install ows-btc-core-lib
+npm install ows-btccore-lib
 ```
 
 ```
-bower install ows-btc-core-lib
+bower install ows-btccore-lib
 ```
 
 ## Documentation
@@ -32,15 +32,15 @@ To get community assistance and ask for help with implementation questions, plea
 
 ## Examples
 
-* [Generate a random address](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#generate-a-random-address)
-* [Generate a address from a SHA256 hash](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
-* [Import an address via WIF](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#import-an-address-via-wif)
-* [Create a Transaction](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#create-a-transaction)
-* [Sign a Bitcoin message](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
-* [Verify a Bitcoin message](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
-* [Create an OP RETURN transaction](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
-* [Create a 2-of-3 multisig P2SH address](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
-* [Spend from a 2-of-2 multisig P2SH address](https://github.com/owstack/ows-btc-core-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
+* [Generate a random address](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#generate-a-random-address)
+* [Generate a address from a SHA256 hash](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
+* [Import an address via WIF](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#import-an-address-via-wif)
+* [Create a Transaction](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#create-a-transaction)
+* [Sign a Bitcoin message](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
+* [Verify a Bitcoin message](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
+* [Create an OP RETURN transaction](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
+* [Create a 2-of-3 multisig P2SH address](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
+* [Spend from a 2-of-2 multisig P2SH address](https://github.com/owstack/ows-btccore-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
 
 
 ## Security
@@ -49,19 +49,19 @@ If you find a security issue, please email security@openwalletstack.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/owstack/ows-btc-core-lib/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/owstack/ows-btccore-lib/blob/master/CONTRIBUTING.md) file.
 
 ## Building the Browser Bundle
 
-To build a ows-btc-core-lib full bundle for the browser:
+To build a ows-btccore-lib full bundle for the browser:
 
 ```sh
 gulp browser
 ```
 
-This will generate files named `ows-btc-core-lib.js` and `ows-btc-core-lib.min.js`.
+This will generate files named `ows-btccore.js` and `ows-btccore.min.js`.
 
-You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/owstack/ows-btc-core-lib/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
+You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/owstack/ows-btccore-lib/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
 
 To verify signatures, use the following PGP keys:
 - @braydonf: https://pgp.mit.edu/pks/lookup?op=get&search=0x9BBF07CAC07A276D `D909 EFE6 70B5 F6CC 89A3 607A 9BBF 07CA C07A 276D`
@@ -73,8 +73,8 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/owstack/ows-btc-core-lib
-cd ows-btc-core-lib
+git clone https://github.com/owstack/ows-btccore-lib
+cd ows-btccore-lib
 npm install
 ```
 
@@ -89,6 +89,6 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/ows-btc-core-lib/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/ows-btccore-lib/blob/master/LICENSE).
 
 Copyright 2017 Open Wallet Stack. BtcCore is a trademark maintained by Open Wallet Stack

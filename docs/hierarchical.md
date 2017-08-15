@@ -10,7 +10,7 @@ An instance of a [PrivateKey](privatekey.md) that also contains information requ
 Sample usage:
 
 ```javascript
-var btccore = require('btccore');
+var btccore = require('ows-btccore-lib');
 var HDPrivateKey = btccore.HDPrivateKey;
 
 var hdPrivateKey = new HDPrivateKey();

@@ -11,6 +11,6 @@ describe('#versionGuard', function() {
   it('throw an error if version is already defined', function() {
     (function() {
       btccore.versionGuard('version');
-    }).should.throw('More than one instance of btccore');
+    }).should.throw('More than one instance of ows-btccore-lib');
   });
 });
