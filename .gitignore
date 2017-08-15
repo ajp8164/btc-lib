@@ -16,8 +16,8 @@ report
 .DS_Store
 
 
-btccore.js
-btccore.min.js
-btccore.js.sig
-btccore.min.js.sig
+ows-btccore.js
+ows-btccore.min.js
+ows-btccore.js.sig
+ows-btccore.min.js.sig
 tests.js

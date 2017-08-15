@@ -1,5 +1,5 @@
 {
-  "name": "ows-btc-core-lib",
+  "name": "ows-btccore-lib",
   "version": "0.14.0",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "Open Wallet Stack <dev@openwalletstack.com>",
@@ -74,7 +74,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/owstack/ows-btc-core-lib.git"
+    "url": "https://github.com/owstack/ows-btccore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -88,7 +88,7 @@
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "ows-btc-core-build": "owstack/ows-btc-core-build",
+    "ows-btccore-build": "owstack/ows-btccore-build",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
