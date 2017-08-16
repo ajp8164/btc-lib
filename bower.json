@@ -1,6 +1,6 @@
 {
-  "name": "ows-btccore-lib",
-  "main": "./ows-btccore.min.js",
+  "name": "btccore-lib",
+  "main": "./btccore.min.js",
   "version": "0.13.19",
   "homepage": "http://openwalletstack.com",
   "authors": [
@@ -13,7 +13,6 @@
   "keywords": [
     "bitcoin",
     "btccore",
-    "ows-btccore",
     "btc",
     "satoshi"
   ],

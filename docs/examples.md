@@ -1,4 +1,4 @@
-# BtcCore examples
+# Btccore examples
 
 ## Generate a random address
 ```javascript

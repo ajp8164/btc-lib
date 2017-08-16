@@ -1,8 +1,8 @@
-# BtcCore v0.14
+# Btccore v0.14
 
 ## Principles
 
-Bitcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for highly resilient bitcoin infrastructure, and the developer community needs reliable, open-source tools to implement bitcoin apps and services. BtcCore provides a reliable API for JavaScript apps that need to interface with Bitcoin.
+Bitcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for highly resilient bitcoin infrastructure, and the developer community needs reliable, open-source tools to implement bitcoin apps and services. Btccore provides a reliable API for JavaScript apps that need to interface with Bitcoin.
 
 To get started, just `npm install btccore` or `bower install btccore`.
 
@@ -35,14 +35,14 @@ To get started, just `npm install btccore` or `bower install btccore`.
 
 Some functionality is implemented as a module that can be installed separately:
 
-* [Payment Protocol Support](https://github.com/owstack/ows-btccore-payment-protocol)
-* [Peer to Peer Networking](https://github.com/owstack/ows-btccore-p2p)
-* [Bitcoin Core JSON-RPC](https://github.com/owstack/ows-btc-bitcoind-rpc)
-* [Payment Channels](https://github.com/owstack/ows-btccore-channel)
-* [Mnemonics](https://github.com/owstack/ows-btccore-mnemonic)
-* [Elliptical Curve Integrated Encryption Scheme](https://github.com/owstack/ows-btccore-ecies)
-* [Blockchain Explorers](https://github.com/owstack/ows-btccore-explorers)
-* [Signed Messages](https://github.com/owstack/ows-btccore-message)
+* [Payment Protocol Support](https://github.com/owstack/btccore-payment-protocol)
+* [Peer to Peer Networking](https://github.com/owstack/btccore-p2p)
+* [Bitcoin Core JSON-RPC](https://github.com/owstack/btc-bitcoind-rpc)
+* [Payment Channels](https://github.com/owstack/btccore-channel)
+* [Mnemonics](https://github.com/owstack/btccore-mnemonic)
+* [Elliptical Curve Integrated Encryption Scheme](https://github.com/owstack/btccore-ecies)
+* [Blockchain Explorers](https://github.com/owstack/btccore-explorers)
+* [Signed Messages](https://github.com/owstack/btccore-message)
 
 # Examples
 
