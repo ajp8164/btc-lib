@@ -1,7 +1,7 @@
 # Public Key
 Represents a bitcoin public key and is needed to be able to receive bitcoin, as is usually represented as a bitcoin [Address](address.md). See the official [Bitcoin Wiki](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses).
 
-A PublicKey in BtcCore is an immutable object and can be instantiated from a [Point](crypto.md), string, [PrivateKey](privatekey.md), Buffer or a [BN](crypto.md).
+A PublicKey in Btccore is an immutable object and can be instantiated from a [Point](crypto.md), string, [PrivateKey](privatekey.md), Buffer or a [BN](crypto.md).
 
 ## Instantiate a Public Key
 Here is how to instantiate a public key:
@@ -32,7 +32,7 @@ It's important to note that there are two possible ways to represent a public ke
 Example:
 
 ```javascript
-> var btccore = require('ows-btccore-lib');
+> var btccore = require('btccore-lib');
 
 // compressed public key starting with 0x03 (greater than midpoint of curve)
 > var compressedPK = btccore.PublicKey('030589ee559348bd6a7325994f9c8eff12bd'+

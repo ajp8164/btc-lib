@@ -6,9 +6,9 @@ var btccore = module.exports;
 btccore.version = 'v' + require('./package.json').version;
 btccore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of ows-btccore-lib found. ' +
-      'Please make sure to require ows-btccore-lib and check that submodules do' +
-      ' not also include their own ows-btccore-lib dependency.';
+    var message = 'More than one instance of btccore-lib found. ' +
+      'Please make sure to require btccore-lib and check that submodules do' +
+      ' not also include their own btccore-lib dependency.';
     throw new Error(message);
   }
 };

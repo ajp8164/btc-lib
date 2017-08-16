@@ -1,5 +1,5 @@
 
 
-var btccoreTasks = require('ows-btccore-build');
+var btccoreTasks = require('btccore-build');
 
 btccoreTasks('lib');
