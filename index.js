@@ -5,10 +5,10 @@ var btccore = module.exports;
 // module information
 btccore.version = 'v' + require('./package.json').version;
 btccore.versionGuard = function(version) {
-  if (version !== undefined) {
+  if (version !== undefined && version != global._btccore) {
     var message = 'More than one instance of btccore-lib found. ' +
       'Please make sure to require btccore-lib and check that submodules do' +
-      ' not also include their own btccore-lib dependency.';
+      ' not also include their own different version of btccore-lib dependency.';
     throw new Error(message);
   }
 };
