@@ -37,7 +37,7 @@ Some functionality is implemented as a module that can be installed separately:
 
 * [Payment Protocol Support](https://github.com/owstack/btccore-payment-protocol)
 * [Peer to Peer Networking](https://github.com/owstack/btccore-p2p)
-* [Bitcoin Core JSON-RPC](https://github.com/owstack/btc-bitcoind-rpc)
+* [Bitcoin Core JSON-RPC](https://github.com/owstack/bitcoind-rpc)
 * [Payment Channels](https://github.com/owstack/btccore-channel)
 * [Mnemonics](https://github.com/owstack/btccore-mnemonic)
 * [Elliptical Curve Integrated Encryption Scheme](https://github.com/owstack/btccore-ecies)
