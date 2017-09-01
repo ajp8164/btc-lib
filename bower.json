@@ -3,9 +3,6 @@
   "main": "./btccore.min.js",
   "version": "0.0.1",
   "homepage": "http://openwalletstack.com",
-  "authors": [
-    "Open Wallet Stack"
-  ],
   "description": "A pure, powerful core for your bitcoin project.",
   "moduleType": [
     "globals"

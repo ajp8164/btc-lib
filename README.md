@@ -9,7 +9,7 @@ A pure and powerful JavaScript Bitcoin library.
 
 ## Attribution
 
-This repository was created by copy forking [bitcore-lib bce9b83] (https://github.com/bitpay/bitcore-lib/commit/bce9b83f50c3ed5df2c1ab1d5fc164580666c6db).
+This repository was created by copy forking [bitcore-lib bce9b83](https://github.com/bitpay/bitcore-lib/commit/bce9b83f50c3ed5df2c1ab1d5fc164580666c6db).
 
 ## Principles
 
