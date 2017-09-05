@@ -1,5 +1,3 @@
-
-
-var btccoreTasks = require('btccore-build');
-
-btccoreTasks('lib');
+'use strict';
+var owsTasks = require('ows-build');
+owsTasks('btccore', 'lib');
