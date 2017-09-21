@@ -2,14 +2,14 @@
 
 var should = require('chai').should();
 var expect = require('chai').expect;
-var btccore = require('../..');
 
+var btccore = require('../..');
+var Address = btccore.Address;
 var BufferUtil = btccore.util.buffer;
-var Script = btccore.Script;
 var Networks = btccore.Networks;
 var Opcode = btccore.Opcode;
 var PublicKey = btccore.PublicKey;
-var Address = btccore.Address;
+var Script = btccore.Script;
 
 describe('Script', function() {
 

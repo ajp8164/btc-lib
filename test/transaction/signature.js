@@ -2,16 +2,17 @@
 
 /* jshint unused: false */
 /* jshint latedef: false */
-var should = require('chai').should();
 var expect = require('chai').expect;
-var _ = require('lodash');
+var should = require('chai').should();
 
+var owsCommon = require('ows-common');
 var btccore = require('../..');
-var Transaction = btccore.Transaction;
-var TransactionSignature = btccore.Transaction.Signature;
+var errors = owsCommon.errors;
 var Script = btccore.Script;
 var PrivateKey = btccore.PrivateKey;
-var errors = btccore.errors;
+var Transaction = btccore.Transaction;
+var TransactionSignature = btccore.Transaction.Signature;
+var _ = require('lodash');
 
 describe('TransactionSignature', function() {
 

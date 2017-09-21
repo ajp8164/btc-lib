@@ -1,20 +1,20 @@
 'use strict';
 
 var should = require('chai').should();
+
 var btccore = require('../..');
-var Interpreter = btccore.Script.Interpreter;
-var Transaction = btccore.Transaction;
-var PrivateKey = btccore.PrivateKey;
-var Script = btccore.Script;
 var BN = btccore.crypto.BN;
 var BufferWriter = btccore.encoding.BufferWriter;
+var Interpreter = btccore.Script.Interpreter;
 var Opcode = btccore.Opcode;
-var _ = require('lodash');
-
+var PrivateKey = btccore.PrivateKey;
+var Script = btccore.Script;
 var script_valid = require('../data/bitcoind/script_valid');
 var script_invalid = require('../data/bitcoind/script_invalid');
+var Transaction = btccore.Transaction;
 var tx_valid = require('../data/bitcoind/tx_valid');
 var tx_invalid = require('../data/bitcoind/tx_invalid');
+var _ = require('lodash');
 
 //the script string format used in bitcoind data tests
 Script.fromBitcoindString = function(str) {

@@ -2,9 +2,10 @@
 
 var expect = require('chai').expect;
 var should = require('chai').should();
+
 var btccore = require('..');
-var networks = btccore.Networks;
 var Constants = require('../lib/common/constants');
+var networks = btccore.Networks;
 
 describe('Networks', function() {
 

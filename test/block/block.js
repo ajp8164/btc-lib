@@ -1,14 +1,15 @@
 'use strict';
 
+var chai = require('chai');
+var should = chai.should();
+
 var btccore = require('../..');
-var BN = require('../../lib/crypto/bn');
+var BN = btccore.crypto.BN;
 var BufferReader = btccore.encoding.BufferReader;
 var BufferWriter = btccore.encoding.BufferWriter;
 var BlockHeader = btccore.BlockHeader;
 var Block = btccore.Block;
-var chai = require('chai');
 var fs = require('fs');
-var should = chai.should();
 var Transaction = btccore.Transaction;
 
 // https://test-bex.openwalletstack.com/block/000000000b99b16390660d79fcc138d2ad0c89a0d044c4201a02bdf1f61ffa11
