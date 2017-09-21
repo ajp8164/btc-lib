@@ -1,17 +1,17 @@
 'use strict';
 /* jshint unused: false */
 
-var should = require('chai').should();
 var expect = require('chai').expect;
-var _ = require('lodash');
+var should = require('chai').should();
 
 var btccore = require('../../..');
-var Transaction = btccore.Transaction;
-var PrivateKey = btccore.PrivateKey;
 var Address = btccore.Address;
+var MultiSigInput = btccore.Transaction.Input.MultiSig;
+var PrivateKey = btccore.PrivateKey;
 var Script = btccore.Script;
 var Signature = btccore.crypto.Signature;
-var MultiSigInput = btccore.Transaction.Input.MultiSig;
+var Transaction = btccore.Transaction;
+var _ = require('lodash');
 
 describe('MultiSigInput', function() {
 

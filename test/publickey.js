@@ -1,16 +1,16 @@
 'use strict';
 
-var should = require('chai').should();
 var expect = require('chai').expect;
+var should = require('chai').should();
 
 var btccore = require('..');
-var Point = btccore.crypto.Point;
+var Address = btccore.Address;
 var BN = btccore.crypto.BN;
+var Constants = require('../lib/common/constants');
+var Networks = btccore.Networks;
+var Point = btccore.crypto.Point;
 var PublicKey = btccore.PublicKey;
 var PrivateKey = btccore.PrivateKey;
-var Address = btccore.Address;
-var Networks = btccore.Networks;
-var Constants = require('../lib/common/constants');
 
 /* jshint maxlen: 200 */
 

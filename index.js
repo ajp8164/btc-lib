@@ -1,45 +1,36 @@
 'use strict';
 
-var btccore = module.exports;
+var btccore = {};
+var owsCommon = require('ows-common');
 
 // module information
 btccore.version = 'v' + require('./package.json').version;
-btccore.versionGuard = function(version) {
-  if (version !== undefined && version != global._btccore) {
-    var message = 'More than one instance of btccore-lib found. ' +
-      'Please make sure to require btccore-lib and check that submodules do' +
-      ' not also include their own different version of btccore-lib dependency.';
-    throw new Error(message);
-  }
-};
-btccore.versionGuard(global._btccore);
-global._btccore = btccore.version;
 
 // crypto
 btccore.crypto = {};
-btccore.crypto.BN = require('./lib/crypto/bn');
+btccore.crypto.BN = owsCommon.crypto.BN;
 btccore.crypto.ECDSA = require('./lib/crypto/ecdsa');
-btccore.crypto.Hash = require('./lib/crypto/hash');
-btccore.crypto.Random = require('./lib/crypto/random');
+btccore.crypto.Hash = owsCommon.crypto.Hash;
+btccore.crypto.Random = owsCommon.crypto.Random;
 btccore.crypto.Point = require('./lib/crypto/point');
 btccore.crypto.Signature = require('./lib/crypto/signature');
 
 // encoding
 btccore.encoding = {};
-btccore.encoding.Base58 = require('./lib/encoding/base58');
-btccore.encoding.Base58Check = require('./lib/encoding/base58check');
-btccore.encoding.BufferReader = require('./lib/encoding/bufferreader');
-btccore.encoding.BufferWriter = require('./lib/encoding/bufferwriter');
-btccore.encoding.Varint = require('./lib/encoding/varint');
+btccore.encoding.Base58 = owsCommon.encoding.Base58;
+btccore.encoding.Base58Check = owsCommon.encoding.Base58Check;
+btccore.encoding.BufferReader = owsCommon.encoding.BufferReader;
+btccore.encoding.BufferWriter = owsCommon.encoding.BufferWriter;
+btccore.encoding.Varint = owsCommon.encoding.Varint;
 
 // utilities
 btccore.util = {};
-btccore.util.buffer = require('./lib/util/buffer');
-btccore.util.js = require('./lib/util/js');
-btccore.util.preconditions = require('./lib/util/preconditions');
+btccore.util.buffer = owsCommon.util.buffer;
+btccore.util.js = owsCommon.util.js;
+btccore.util.preconditions = owsCommon.util.preconditions;
 
 // errors thrown by the library
-btccore.errors = require('./lib/errors');
+btccore.errors = owsCommon.errors;
 
 // main bitcoin library
 btccore.Address = require('./lib/address');
@@ -67,3 +58,5 @@ btccore.deps._ = require('lodash');
 
 // Internal usage, exposed for testing/advanced tweaking
 btccore.Transaction.sighash = require('./lib/transaction/sighash');
+
+module.exports = btccore;

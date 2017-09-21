@@ -2,18 +2,18 @@
 
 /* jshint unused: false */
 /* jshint latedef: false */
-var should = require('chai').should();
 var expect = require('chai').expect;
-var _ = require('lodash');
+var should = require('chai').should();
 
 var btccore = require('../..');
+var owsCommon = require('ows-common');
 var BN = btccore.crypto.BN;
 var BufferWriter = btccore.encoding.BufferWriter;
 var BufferReader = btccore.encoding.BufferReader;
+var errors = owsCommon.errors;
 var Output = btccore.Transaction.Output;
 var Script = btccore.Script;
-
-var errors = btccore.errors;
+var _ = require('lodash');
 
 describe('Output', function() {
   var output = new Output({

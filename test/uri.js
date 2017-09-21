@@ -1,10 +1,11 @@
 'use strict';
 
 var chai = chai || require('chai');
-var btccore = require('..');
 var expect = chai.expect;
-var Networks = btccore.Networks;
 var should = chai.should();
+
+var btccore = require('..');
+var Networks = btccore.Networks;
 var URI = btccore.URI;
 
 describe('URI', function() {

@@ -1,16 +1,15 @@
 'use strict';
 
-var should = require('chai').should();
 var expect = require('chai').expect;
-var _ = require('lodash');
 
 var btccore = require('../../..');
-var errors = btccore.errors;
-var PrivateKey = btccore.PrivateKey;
 var Address = btccore.Address;
-var Script = btccore.Script;
-var Networks = btccore.Networks;
+var errors = btccore.errors;
 var Input = btccore.Transaction.Input;
+var Networks = btccore.Networks;
+var PrivateKey = btccore.PrivateKey;
+var Script = btccore.Script;
+var _ = require('lodash');
 
 describe('Transaction.Input', function() {
 

@@ -3,18 +3,17 @@
 /* jshint maxstatements: 30 */
 
 var chai = require('chai');
-var should = chai.should();
 var expect = chai.expect;
+var should = chai.should();
 
 var btccore = require('..');
-var PublicKey = btccore.PublicKey;
 var Address = btccore.Address;
-var Script = btccore.Script;
-var Networks = btccore.Networks;
 var Constants = require('../lib/common/constants');
-
-var validbase58 = require('./data/bitcoind/base58_keys_valid.json');
 var invalidbase58 = require('./data/bitcoind/base58_keys_invalid.json');
+var Networks = btccore.Networks;
+var PublicKey = btccore.PublicKey;
+var Script = btccore.Script;
+var validbase58 = require('./data/bitcoind/base58_keys_valid.json');
 
 describe('Address', function() {
 
