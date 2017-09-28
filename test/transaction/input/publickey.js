@@ -2,9 +2,9 @@
 
 var should = require('chai').should();
 
-var btccore = require('../../..');
-var PrivateKey = btccore.PrivateKey;
-var Transaction = btccore.Transaction;
+var btcLib = require('../../..');
+var PrivateKey = btcLib.PrivateKey;
+var Transaction = btcLib.Transaction;
 
 describe('PublicKeyInput', function() {
 

@@ -2,16 +2,16 @@
 
 var should = require('chai').should();
 
-var btccore = require('../..');
-var BN = btccore.crypto.BN;
-var BufferWriter = btccore.encoding.BufferWriter;
-var Interpreter = btccore.Script.Interpreter;
-var Opcode = btccore.Opcode;
-var PrivateKey = btccore.PrivateKey;
-var Script = btccore.Script;
+var btcLib = require('../..');
+var BN = btcLib.crypto.BN;
+var BufferWriter = btcLib.encoding.BufferWriter;
+var Interpreter = btcLib.Script.Interpreter;
+var Opcode = btcLib.Opcode;
+var PrivateKey = btcLib.PrivateKey;
+var Script = btcLib.Script;
 var script_valid = require('../data/bitcoind/script_valid');
 var script_invalid = require('../data/bitcoind/script_invalid');
-var Transaction = btccore.Transaction;
+var Transaction = btcLib.Transaction;
 var tx_valid = require('../data/bitcoind/tx_valid');
 var tx_invalid = require('../data/bitcoind/tx_invalid');
 var _ = require('lodash');

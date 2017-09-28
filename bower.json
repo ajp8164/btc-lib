@@ -1,6 +1,6 @@
 {
-  "name": "btccore-lib",
-  "main": "./btccore.min.js",
+  "name": "btc-lib",
+  "main": "./btc.min.js",
   "version": "0.0.1",
   "homepage": "http://openwalletstack.com",
   "description": "A pure, powerful core for your bitcoin project.",
@@ -9,7 +9,7 @@
   ],
   "keywords": [
     "bitcoin",
-    "btccore",
+    "btc",
     "btc",
     "satoshi"
   ],

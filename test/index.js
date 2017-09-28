@@ -2,4 +2,4 @@
 
 var should = require('chai').should();
 
-var btccore = require('../');
+var btcLib = require('../');

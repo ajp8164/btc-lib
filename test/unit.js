@@ -3,10 +3,10 @@
 var expect = require('chai').expect;
 var should = require('chai').should();
 
-var btccore = require('..');
+var btcLib = require('..');
 var owsCommon = require('ows-common');
 var errors = owsCommon.errors;
-var Unit = btccore.Unit;
+var Unit = btcLib.Unit;
 
 describe('Unit', function() {
 

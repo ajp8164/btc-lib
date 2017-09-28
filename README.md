@@ -1,9 +1,9 @@
-Btccore Library
+BtcLib
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/btccore-lib.svg?style=flat-square)](https://www.npmjs.org/package/btccore-lib)
-[![Build Status](https://img.shields.io/travis/owstack/btccore-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btccore-lib)
-[![Coverage Status](https://img.shields.io/coveralls/owstack/btccore-lib.svg?style=flat-square)](https://coveralls.io/r/owstack/btccore-lib)
+[![NPM Package](https://img.shields.io/npm/v/btc-lib.svg?style=flat-square)](https://www.npmjs.org/package/btc-lib)
+[![Build Status](https://img.shields.io/travis/owstack/btc-lib.svg?branch=master&style=flat-square)](https://travis-ci.org/owstack/btc-lib)
+[![Coverage Status](https://img.shields.io/coveralls/owstack/btc-lib.svg?style=flat-square)](https://coveralls.io/r/owstack/btc-lib)
 
 A pure and powerful JavaScript Bitcoin library.
 
@@ -18,33 +18,33 @@ Bitcoin is a powerful new peer-to-peer platform for the next generation of finan
 ## Get Started
 
 ```
-npm install btccore-lib
+npm install btc-lib
 ```
 
 ```
-bower install btccore-lib
+bower install btc-lib
 ```
 
 ## Documentation
 
-The complete docs are hosted here: [btccore documentation](http://btccore.io/guide/). There's also a [btccore API reference](http://btccore.io/api/) available generated from the JSDocs of the project, where you'll find low-level details on each btccore utility.
+The complete docs are hosted here: [btcLib documentation](http://btc.io/guide/). There's also a [btcLib API reference](http://btc.io/api/) available generated from the JSDocs of the project, where you'll find low-level details on each btcLib utility.
 
-- [Read the Developer Guide](http://btccore.io/guide/)
-- [Read the API Reference](http://btccore.io/api/)
+- [Read the Developer Guide](http://btcLib.io/guide/)
+- [Read the API Reference](http://btcLib.io/api/)
 
-To get community assistance and ask for help with implementation questions, please use our [community forums](https://forum.btccore.io/).
+To get community assistance and ask for help with implementation questions, please use our [community forums](https://forum.btcLib.io/).
 
 ## Examples
 
-* [Generate a random address](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#generate-a-random-address)
-* [Generate a address from a SHA256 hash](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
-* [Import an address via WIF](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#import-an-address-via-wif)
-* [Create a Transaction](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#create-a-transaction)
-* [Sign a Bitcoin message](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
-* [Verify a Bitcoin message](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
-* [Create an OP RETURN transaction](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
-* [Create a 2-of-3 multisig P2SH address](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
-* [Spend from a 2-of-2 multisig P2SH address](https://github.com/owstack/btccore-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
+* [Generate a random address](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#generate-a-random-address)
+* [Generate a address from a SHA256 hash](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#generate-a-address-from-a-sha256-hash)
+* [Import an address via WIF](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#import-an-address-via-wif)
+* [Create a Transaction](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#create-a-transaction)
+* [Sign a Bitcoin message](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#sign-a-bitcoin-message)
+* [Verify a Bitcoin message](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#verify-a-bitcoin-message)
+* [Create an OP RETURN transaction](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#create-an-op-return-transaction)
+* [Create a 2-of-3 multisig P2SH address](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#create-a-2-of-3-multisig-p2sh-address)
+* [Spend from a 2-of-2 multisig P2SH address](https://github.com/owstack/btc-lib/blob/master/docs/examples.md#spend-from-a-2-of-2-multisig-p2sh-address)
 
 
 ## Security
@@ -53,19 +53,19 @@ If you find a security issue, please email security@openwalletstack.com.
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/owstack/btccore-lib/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/owstack/btc-lib/blob/master/CONTRIBUTING.md) file.
 
 ## Building the Browser Bundle
 
-To build a btccore-lib full bundle for the browser:
+To build a btc-lib full bundle for the browser:
 
 ```sh
 gulp browser
 ```
 
-This will generate files named `btccore.js` and `btccore.min.js`.
+This will generate files named `btc-lib.js` and `btc-lib.min.js`.
 
-You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/owstack/btccore-lib/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
+You can also use our pre-generated files, provided for each release along with a PGP signature by one of the project's maintainers. To get them, checkout a release commit (for example, https://github.com/owstack/btc-lib/commit/e33b6e3ba6a1e5830a079e02d949fce69ea33546 for v0.12.6).
 
 To verify signatures, use the following PGP keys:
 - @braydonf: https://pgp.mit.edu/pks/lookup?op=get&search=0x9BBF07CAC07A276D `D909 EFE6 70B5 F6CC 89A3 607A 9BBF 07CA C07A 276D`
@@ -77,8 +77,8 @@ To verify signatures, use the following PGP keys:
 ## Development & Tests
 
 ```sh
-git clone https://github.com/owstack/btccore-lib
-cd btccore-lib
+git clone https://github.com/owstack/btc-lib
+cd btc-lib
 npm install
 ```
 
@@ -93,6 +93,6 @@ or create a test coverage report (you can open `coverage/lcov-report/index.html`
 
 ## License
 
-Code released under [the MIT license](https://github.com/owstack/btccore-lib/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/owstack/btc-lib/blob/master/LICENSE).
 
 Copyright 2017 Open Wallet Stack. Btccore is a trademark maintained by Open Wallet Stack.

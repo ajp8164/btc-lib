@@ -2,13 +2,13 @@
 
 var expect = require('chai').expect;
 
-var btccore = require('../../..');
-var Address = btccore.Address;
-var errors = btccore.errors;
-var Input = btccore.Transaction.Input;
-var Networks = btccore.Networks;
-var PrivateKey = btccore.PrivateKey;
-var Script = btccore.Script;
+var btcLib = require('../../..');
+var Address = btcLib.Address;
+var errors = btcLib.errors;
+var Input = btcLib.Transaction.Input;
+var Networks = btcLib.Networks;
+var PrivateKey = btcLib.PrivateKey;
+var Script = btcLib.Script;
 var _ = require('lodash');
 
 describe('Transaction.Input', function() {

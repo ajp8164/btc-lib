@@ -6,17 +6,17 @@ var assert = require('assert');
 var expect = require('chai').expect;
 var should = require('chai').should();
 
-var btccore = require('..');
+var btcLib = require('..');
 var owsCommon = require('ows-common');
-var Base58Check = btccore.encoding.Base58Check;
+var Base58Check = btcLib.encoding.Base58Check;
 var buffer = require('buffer');
-var BufferUtil = btccore.util.buffer;
+var BufferUtil = btcLib.util.buffer;
 var Constants = require('../lib/common/constants');
 var errors = owsCommon.errors;
-var hdErrors = btccore.errors.HDPublicKey;
-var HDPrivateKey = btccore.HDPrivateKey;
-var HDPublicKey = btccore.HDPublicKey;
-var Networks = btccore.Networks;
+var hdErrors = btcLib.errors.HDPublicKey;
+var HDPrivateKey = btcLib.HDPrivateKey;
+var HDPublicKey = btcLib.HDPublicKey;
+var Networks = btcLib.Networks;
 var _ = require('lodash');
 
 var xprivkey = 'xprv9s21ZrQH143K3QTDL4LXw2F7HEK3wJUD2nW2nRk4stbPy6cq3jPPqjiChkVvvNKmPGJxWUtg6LnF5kejMRNNU3TGtRBeJgk33yuGBxrMPHi';

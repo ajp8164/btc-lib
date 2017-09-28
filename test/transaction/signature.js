@@ -6,12 +6,12 @@ var expect = require('chai').expect;
 var should = require('chai').should();
 
 var owsCommon = require('ows-common');
-var btccore = require('../..');
+var btcLib = require('../..');
 var errors = owsCommon.errors;
-var Script = btccore.Script;
-var PrivateKey = btccore.PrivateKey;
-var Transaction = btccore.Transaction;
-var TransactionSignature = btccore.Transaction.Signature;
+var Script = btcLib.Script;
+var PrivateKey = btcLib.PrivateKey;
+var Transaction = btcLib.Transaction;
+var TransactionSignature = btcLib.Transaction.Signature;
 var _ = require('lodash');
 
 describe('TransactionSignature', function() {
