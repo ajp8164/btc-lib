@@ -2,11 +2,11 @@
 
 var should = require('chai').should();
 
-var btccore = require('../..');
-var BN = btccore.crypto.BN;
+var btcLib = require('../..');
+var BN = btcLib.crypto.BN;
 var Constants = require('../../lib/common/constants');
 var ECDSA = require('../../lib/crypto/ecdsa');
-var Hash = btccore.crypto.Hash;
+var Hash = btcLib.crypto.Hash;
 var point = require('../../lib/crypto/point');
 var Privkey = require('../../lib/privatekey');
 var Pubkey = require('../../lib/publickey');

@@ -6,19 +6,19 @@ var expect = require('chai').expect;
 var should = require('chai').should();
 var sinon = require('sinon');
 
-var btccore = require('../..');
+var btcLib = require('../..');
 var owsCommon = require('ows-common');
-var Address = btccore.Address;
-var BN = btccore.crypto.BN;
+var Address = btcLib.Address;
+var BN = btcLib.crypto.BN;
 var Constants = require('../../lib/common/constants');
 var errors = owsCommon.errors;
-var Input = btccore.Transaction.Input;
-var Networks = btccore.Networks;
-var Opcode = btccore.Opcode;
-var Output = btccore.Transaction.Output;
-var PrivateKey = btccore.PrivateKey;
-var Script = btccore.Script;
-var Transaction = btccore.Transaction;
+var Input = btcLib.Transaction.Input;
+var Networks = btcLib.Networks;
+var Opcode = btcLib.Opcode;
+var Output = btcLib.Transaction.Output;
+var PrivateKey = btcLib.PrivateKey;
+var Script = btcLib.Script;
+var Transaction = btcLib.Transaction;
 var transactionVector = require('../data/tx_creation');
 var _ = require('lodash');
 
@@ -116,7 +116,7 @@ describe('Transaction', function() {
   });
 
   it('fromObject with pay-to-public-key previous outputs', function() {
-    var tx = btccore.Transaction({
+    var tx = btcLib.Transaction({
       hash: '132856bf03d6415562a556437d22ac63c37a4595fd986c796eb8e02dc031aa25',
       version: 1,
       inputs: [
@@ -144,7 +144,7 @@ describe('Transaction', function() {
       ],
       nLockTime: 139
     });
-    tx.inputs[0].should.be.instanceof(btccore.Transaction.Input.PublicKey);
+    tx.inputs[0].should.be.instanceof(btcLib.Transaction.Input.PublicKey);
     tx.inputs[0].output.satoshis.should.equal(5000000000);
     tx.inputs[0].output.script.toHex().should.equal('2103b1c65d65f1ff3fe145a4ede692460ae0606671d04e8449e99dd11c66ab55a7feac');
   });
@@ -766,7 +766,7 @@ describe('Transaction', function() {
         outputIndex: 0,
         script: new Script()
       }), outputScriptString, 10000);
-      transaction.inputs[0].output.script.should.be.instanceof(btccore.Script);
+      transaction.inputs[0].output.script.should.be.instanceof(btcLib.Script);
       transaction.inputs[0].output.script.toString().should.equal(outputScriptString);
     });
   });

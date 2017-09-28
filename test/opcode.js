@@ -4,8 +4,8 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-var btccore = require('..');
-var Opcode = btccore.Opcode;
+var btcLib = require('..');
+var Opcode = btcLib.Opcode;
 var _ = require('lodash');
 
 describe('Opcode', function() {

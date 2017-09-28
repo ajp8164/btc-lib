@@ -2,9 +2,9 @@
 
 var should = require('chai').should();
 
-var btccore = require('../..');
-var BN = btccore.crypto.BN;
-var Point = btccore.crypto.Point;
+var btcLib = require('../..');
+var BN = btcLib.crypto.BN;
+var Point = btcLib.crypto.Point;
 
 describe('Point', function() {
 

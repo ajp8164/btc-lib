@@ -4,13 +4,13 @@ var chai = require('chai');
 var should = chai.should();
 var expect = chai.expect;
 
-var btccore = require('..');
-var Base58Check = btccore.encoding.Base58Check;
-var BN = btccore.crypto.BN;
+var btcLib = require('..');
+var Base58Check = btcLib.encoding.Base58Check;
+var BN = btcLib.crypto.BN;
 var invalidbase58 = require('./data/bitcoind/base58_keys_invalid.json');
-var Networks = btccore.Networks;
-var Point = btccore.crypto.Point;
-var PrivateKey = btccore.PrivateKey;
+var Networks = btcLib.Networks;
+var Point = btcLib.crypto.Point;
+var PrivateKey = btcLib.PrivateKey;
 var Constants = require('../lib/common/constants');
 var validbase58 = require('./data/bitcoind/base58_keys_valid.json');
 

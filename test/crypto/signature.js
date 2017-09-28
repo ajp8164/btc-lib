@@ -2,13 +2,13 @@
 
 var should = require('chai').should();
 
-var btccore = require('../..');
-var BN = btccore.crypto.BN;
-var JSUtil = btccore.util.js;
-var Interpreter = btccore.Script.Interpreter;
+var btcLib = require('../..');
+var BN = btcLib.crypto.BN;
+var JSUtil = btcLib.util.js;
+var Interpreter = btcLib.Script.Interpreter;
 var sig_canonical = require('../data/bitcoind/sig_canonical');
 var sig_noncanonical = require('../data/bitcoind/sig_noncanonical');
-var Signature = btccore.crypto.Signature;
+var Signature = btcLib.crypto.Signature;
 var _ = require('lodash');
 
 describe('Signature', function() {

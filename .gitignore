@@ -16,8 +16,8 @@ report
 .DS_Store
 
 
-btccore-lib.js
-btccore-lib.min.js
-btccore-lib.js.sig
-btccore-lib.min.js.sig
+btc-lib.js
+btc-lib.min.js
+btc-lib.js.sig
+btc-lib.min.js.sig
 tests.js

@@ -3,10 +3,10 @@
 var chai = require('chai');
 var should = chai.should();
 
-var btccore = require('../../');
+var btcLib = require('../../');
 var buffer = require('buffer');
-var Script = btccore.Script;
-var Transaction = btccore.Transaction;
+var Script = btcLib.Script;
+var Transaction = btcLib.Transaction;
 var sighash = Transaction.sighash;
 var vectors_sighash = require('../data/sighash.json');
 

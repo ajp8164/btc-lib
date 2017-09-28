@@ -4,8 +4,8 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = chai.should();
 
-var btccore = require('../..');
-var UnspentOutput = btccore.Transaction.UnspentOutput;
+var btcLib = require('../..');
+var UnspentOutput = btcLib.Transaction.UnspentOutput;
 var _ = require('lodash');
 
 describe('UnspentOutput', function() {
